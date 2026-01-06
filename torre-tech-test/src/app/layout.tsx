@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local"; // O Inter de google
-import "./globals.css";
-import { Toaster } from "@/components/ui/sonner"; // Importa Sonner
-import Providers from "./providers"; // Crearemos esto abajo
+import { Toaster } from "@/components/ui/sonner";
+import Providers from "./providers";
 
 export const metadata: Metadata = {
   title: "Torre Tech Test",
